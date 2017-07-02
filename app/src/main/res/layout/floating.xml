@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_margin="20sp"
+    >
+
+    <com.github.clans.fab.FloatingActionButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bookmark40"
+        android:layout_margin="20dp"
+        android:id="@+id/fab1"
+                />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Notes"
+        android:textColor="@android:color/white"
+        />
+    <com.github.clans.fab.FloatingActionButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/search32"
+android:layout_margin="20sp"
+                android:id="@+id/fab2"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Search"
+        android:textColor="@android:color/white"
+        />
+     <FrameLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+    <com.github.clans.fab.FloatingActionButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:layout_margin="20dp"
+        android:id="@+id/fab3"
+        android:layout_gravity="center"
+               />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Edit"
+            android:textSize="16sp"
+            android:textColor="@android:color/white"
+            />
+</FrameLayout>
+    <com.github.clans.fab.FloatingActionButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sharethis35"
+android:layout_marginTop="20dp"
+
+        android:id="@+id/fab4"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Share"
+        android:textColor="@android:color/white"
+        />
+</LinearLayout>
+</LinearLayout>
